@@ -11,5 +11,11 @@ public class calculatorTest {
 		int result = calculator.add(2,2);
 		Assert.assertEquals(4, result);
 	}
+	@Test
+	public void subtractTwoNumbers() {
+		Calculator calculator = new Calculator();
+		int result = calculator.subtract(6,2);
+		Assert.assertEquals(4, result);
+	}
 
 }
