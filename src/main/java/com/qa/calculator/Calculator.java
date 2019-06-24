@@ -13,9 +13,21 @@ public class Calculator {
 		return result;
 	}
 
-	public int multipley(int number1, int number2) {
+	public int multiply(int number1, int number2) {
 
 		int result = number1 * number2;
+		return result;
+	}
+
+	public int divide(int number1, int number2) {
+
+		int result = number1 / number2;
+		return result;
+	}
+
+	public int modulation(int number1, int number2) {
+
+		int result = number1 % number2;
 		return result;
 	}
 }
