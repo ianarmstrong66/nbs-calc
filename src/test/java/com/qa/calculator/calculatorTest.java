@@ -29,13 +29,13 @@ public class calculatorTest {
 	public void divideTwoNumbers() {
 		Calculator calculator = new Calculator();
 		int result = calculator.divide(6,2);
-		Assert.assertEquals(12, result);
+		Assert.assertEquals(3, result);
 	}
 	
 	@Test
 	public void modulateTwoNumbers() {
 		Calculator calculator = new Calculator();
 		int result = calculator.modulation(6,2);
-		Assert.assertEquals(12, result);
+		Assert.assertEquals(0, result);
 	}
 }
